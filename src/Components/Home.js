@@ -32,10 +32,15 @@ class Home extends Component {
                     <div className="cover">
                         <div className="nav-media">
                             <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
-                                <span> <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faPhone} />  </span> +31 40 303 3781 
+                                <div>
+                                    <span> <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faPhone} />  </span> <span className="none">+31 40 303 3781 </span>
+                                </div>
                             </a>
                             <a href="mailto:contact@spikestinger.com" aria-label="Mail" rel="noopener noreferrer">
-                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span>  contact@spikestinger.com
+                        
+                            <div>
+                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span> <span className="none">contact@spikestinger.com</span>
+                            </div>
                             </a>
                         </div>
                         <div className="figure">
