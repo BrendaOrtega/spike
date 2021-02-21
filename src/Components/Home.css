@@ -1,5 +1,18 @@
 
+.st-logo{
+    width: 160px;
+}
 
+.nav-media{
+    position: relative;
+    float: right;
+    color:white !important;
+    margin: 24px 24px 0 0;
+}
+.nav-media a{
+    color: white;
+    margin-left: 24px;
+}
 #myVideo{
     object-fit: cover;
     width: 100vw;
@@ -59,6 +72,13 @@
     flex-grow: 1;
     padding-right: 80px;
 }
+
+.link{
+    color:#004aad;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .box-benefits{
     width: 800px;
     flex-grow: 1;
@@ -72,6 +92,7 @@
     margin: 0px 0 24px 0;
     flex-grow: 1;
 }
+
 .card-ad h3{
     font-size: 24px;
     font-weight: 500;
@@ -157,6 +178,10 @@
 .btn_yellow:hover{
     box-shadow: inset 0 -70px 0 0 #D09300;
 }
+.btn_yellow:focus{
+    outline: none;
+
+}
 
 .box_logo{
     display: flex;
@@ -222,6 +247,32 @@
     text-align: center;
 }
 
+.about{
+    text-align: center;
+    padding: 5% 0;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+.card-story{
+    width: 60%;
+    margin: 0 auto;
+    padding: 4% 8%;
+    background-color: white;
+}
+.story{
+    text-align: left !important;
+}
+.bg-logo{
+    width: 240px;
+    margin-bottom: 48px;
+}
+.back-link{
+    color:#004aad;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
 @media(max-width: 1200px) {
     .footer-box div {
         flex-wrap: nowrap !important;
@@ -233,11 +284,18 @@
     .footer-box {
         flex-wrap: wrap !important;
     }
+    .card-story{
+        width: 80%;
+    }
 }
 @media(max-width: 525px) {
-    #myVideo{
-        display: none;
+    .card-story{
+        width: 90%;
+        font-size: 14px;
     }
+    /* #myVideo{
+        display: none;
+    } */
     .figure h1{
         font-size: 54px;
        
@@ -245,10 +303,13 @@
     .figure{
         width: 100%;
         align-items: center;
-        background-color: none;
-        background-position: left;
+        background-color: transparent;
+        /* background-position: left;
         background-size: cover;
-        background-image: url("https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/card.png?alt=media&token=b4daa1e1-2372-490a-9fbe-7178ad322ab0");
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/card.png?alt=media&token=b4daa1e1-2372-490a-9fbe-7178ad322ab0"); */
+    }
+    .footer-box div{
+        padding-left: 0px;
     }
     .benefits h2, .nom h2{
         font-size: 24px;
@@ -282,6 +343,9 @@
     }
     .contact_descript{
         margin-right: 0px;
+    }
+    .box_logo{
+        justify-content: flex-start;
     }
    
 }

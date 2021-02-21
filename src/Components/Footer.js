@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin,faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
-import logo from "../assets/Logo.png"
+
+const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Transparency%20Spike%20STINGER.png?alt=media&token=4a04421f-8d0d-4147-94de-398cdb78a0f1"
 
 
 
@@ -48,10 +49,13 @@ class Footer extends Component {
                         <br/>
                         <h3>Social media</h3>
                         <br/>
-                        <a>
-                            <span> <FontAwesomeIcon icon={faLinkedin} /></span></a>
-                            <a>
-                            <span> <FontAwesomeIcon icon={faYoutube} /></span></a>                    </div>
+                        <a href="https://www.linkedin.com/company/spikestinger/" target="_blank" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faLinkedin} /></span>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC_lemFDtfEF_3R5aypK5VAg?fbclid=IwAR3MqZ-lF0j8-19SRuVs6iYGEdyu1Xsune4HOzeC71DIfZTAhiZ3_vA9GQw" target="_blank" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faYoutube} /></span>
+                        </a>                    
+                    </div>
                 </div>
 
                 <hr className="divider"/>

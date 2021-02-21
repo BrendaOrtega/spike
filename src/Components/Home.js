@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import video from "../assets/video.mp4"
 import "./Home.css"
 import safe from "../assets/user-shield-solid.png"
 import award from "../assets/award.png"
 import vector from "../assets/Vector_1.png"
-import logo from "../assets/Logo.png"
+import {Link} from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin,faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
+
+const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Transparency%20Spike%20STINGER.png?alt=media&token=4a04421f-8d0d-4147-94de-398cdb78a0f1"
+
+const video = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike-intro.mp4?alt=media&token=e638820e-7e3f-4fa9-8794-9fdd1704cde8"
 
 class Home extends Component {
     componentDidMount() {
@@ -24,17 +30,28 @@ class Home extends Component {
                 <title>Spike Stinger</title>
                 <section className="video-box">
                     <div className="cover">
+                        <div className="nav-media">
+                            <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
+                                <span> <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faPhone} />  </span> +31 40 303 3781 
+                            </a>
+                            <a href="mailto:contact@spikestinger.com" aria-label="Mail" rel="noopener noreferrer">
+                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span>  contact@spikestinger.com
+                            </a>
+                        </div>
                         <div className="figure">
                             <div>
+                                <img className="st-logo" src={logo} alt="logo"/>
                                 <h1>SPIKE STINGER</h1>
                                 <p>Making use of basic principles, and cutting edge software, the Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters (16.4 ft) in less than a second</p>
                                 <br/>
                                 <br/>
-                                <button  className="btn_yellow">Contact us</button>
+                                <a href="#contact">
+                                    <button  className="btn_yellow">Contact us</button>
+                                </a>
                             </div>
                         </div>
 
-                        <video autoPlay loop id="myVideo">
+                        <video autoPlay loop id="myVideo" title="products">
                             <source src={video} type="video/mp4"/>
                         </video>
                     </div>
@@ -43,11 +60,14 @@ class Home extends Component {
                     <div className="box-info">
                         <h2>The advantages of the Spike STINGER</h2>
                         <p>What has positioned Spike STINGER as the #1 vehicle stopping system</p>
+                        <Link to="/about-us">
+                            <p><srtong className="link">Read more about Spike Stinger</srtong></p> 
+                        </Link>
                     </div>
                     <div className="box-benefits">
                        <div className="card-ad">
                            <div className="circle">
-                            <img src={safe}/>
+                            <img src={safe} alt="img-safe"/>
                            </div>
                            <br/>
                             <h3>SAFETY</h3>
@@ -56,7 +76,7 @@ class Home extends Component {
                        </div>
                        <div className="card-ad">
                            <div className="circle">
-                            <img style={{width:"32px"}}  src={award}/>
+                            <img style={{width:"32px"}}  src={award} alt="img-eficient"/>
                            </div>
                            <br/>
                             <h3>COST EFFICIENCY</h3>
@@ -65,7 +85,7 @@ class Home extends Component {
                        </div>
                        <div className="card-ad">
                            <div className="circle">
-                            <img src={vector}/>
+                            <img src={vector} alt="img-spike"/>
                            </div>
                            <br/>
                             <h3>Spike-OP Program</h3>
@@ -76,7 +96,7 @@ class Home extends Component {
                    
                 </section>
                 <section className="nom">
-                    <img className="logo_img" src={logo}/>
+                    <img className="logo_img" src={logo} alt="logo"/>
                     <br/>
                     <br/>
                     <h2>The NATO Model</h2>
@@ -90,7 +110,7 @@ class Home extends Component {
                         <br/>           <br/>
                         NATO Stock Number (NSN): 4240-17-127-0850</p>
                 </section>
-                <section className="contacto">
+                <section id="contact" className="contacto">
                     <div className="contact_descript">
                         <h2>The safest way to stop a vehicle</h2>
                         <p>Making use of basic principles, and cutting edge software, the Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters (16.4 ft) in less than a second (depending on the weather/ground conditions). Then, once the vehicle to be stopped has come in touch with the Spike STINGER, the strip goes back to its case in just the same time. This can be safely activated at the distance thanks to its remote control.</p>
