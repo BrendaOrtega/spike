@@ -49,10 +49,10 @@ class Footer extends Component {
                         <br/>
                         <h3>Social media</h3>
                         <br/>
-                        <a href="https://www.linkedin.com/company/spikestinger/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://bit.ly/2M99gE6" target="_blank" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon icon={faLinkedin} /></span>
                         </a>
-                        <a href="https://www.youtube.com/channel/UC_lemFDtfEF_3R5aypK5VAg?fbclid=IwAR3MqZ-lF0j8-19SRuVs6iYGEdyu1Xsune4HOzeC71DIfZTAhiZ3_vA9GQw" target="_blank" rel="noopener noreferrer">
+                        <a href="http://bit.ly/3pJ1SwN" target="_blank" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon icon={faYoutube} /></span>
                         </a>                    
                     </div>
