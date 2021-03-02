@@ -29,8 +29,8 @@ class Footer extends Component {
 
                         <br/>
                         <br/>
-                        <a href="mailto:contact@spikestinger.com" aria-label="Mail" rel="noopener noreferrer">
-                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span>  contact@spikestinger.com
+                        <a href="mailto:contact@spikestingerinternational.com" aria-label="Mail" rel="noopener noreferrer">
+                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span>  contact@spikestingerinternational.com
 
                         </a>
                         <br/>

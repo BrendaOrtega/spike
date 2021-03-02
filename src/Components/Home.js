@@ -100,7 +100,7 @@ class Home extends Component {
                     </div>
                    
                 </section>
-                <section className="nom">
+                {/* <section className="nom">
                     <img className="logo_img" src={logo} alt="logo"/>
                     <br/>
                     <br/>
@@ -114,7 +114,7 @@ class Home extends Component {
                         The remote control uses SMART RECorder technology, exclusively developed for this device by Technics Production B.V.. The Spike STINGER has been equipped with a GPS unit. This allows the registration of the time and location of every deployment. The encrypted data can be retrieved sonely by the owner or staff in charge of every unit.
                         <br/>           <br/>
                         NATO Stock Number (NSN): 4240-17-127-0850</p>
-                </section>
+                </section> */}
                 <section id="contact" className="contacto">
                     <div className="contact_descript">
                         <h2>The safest way to stop a vehicle</h2>

@@ -1,4 +1,9 @@
 
+
+@font-face {
+    font-family: "SpikeFont";
+    src: url("../assets/x-scale_.ttf");
+  }
 .st-logo{
     width: 160px;
 }
@@ -30,8 +35,6 @@
     width: 100%;
     height: 100vh;
     background-color:rgba(0,0,0,.5);
-    font-family: 'Noto Sans JP', sans-serif;
-
 }
 .figure{
     color:white;
@@ -45,10 +48,11 @@
     font-size: 18px;
 }
 .figure h1{
-    font-size: 96px;
+    font-size: 124px;
     color: white;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "SpikeFont";
     margin-bottom: 0px;
+    line-height: 120px;
 }
 .btn-white{
     min-width: 240px;
