@@ -5,8 +5,7 @@ import award from "../assets/award.png"
 import vector from "../assets/Vector_1.png"
 import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin,faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faMapMarked, faPlayCircle} from '@fortawesome/free-solid-svg-icons'
 
 const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/19_20210430_211814_0018.png?alt=media&token=fb4452df-ffcb-492b-b312-79c6508e164f"
 
@@ -50,18 +49,18 @@ class Home extends Component {
                                 <p>Making use of basic principles, and cutting edge software, the Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters (16.4 ft) in less than a second</p>
                                 <br/>
                                 <br/>
+                                
                                 <a href="#contact">
                                     <button  className="btn_yellow">Contact us</button>
                                 </a>
                             </div>
                         </div>
-
+                
                         <video autoPlay loop id="myVideo" title="products">
                             <source src={video} type="video/mp4"/>
                         </video>
                     </div>
                 </section>
-              
                 <section className="benefits">
                     <div className="box-info">
                         <h2>The advantages of the Spike STINGER</h2>
