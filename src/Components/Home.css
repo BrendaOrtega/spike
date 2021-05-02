@@ -173,8 +173,8 @@
 .btn_yellow{
     width: 240px;
     height: 40px;
-    background-color:rgb(253, 184, 19);
-    color: #000000;
+    background-color:#88001B;
+    color: white;
     border: none;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
@@ -234,7 +234,7 @@
 }
 
 .footer img{
-    width: 120px;
+    width: 280px;
 }
 #media{
     margin: 240px 0 !important;

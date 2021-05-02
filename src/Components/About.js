@@ -3,7 +3,7 @@ import './Home.css';
 import { Timeline } from 'antd';
 import {Link} from "react-router-dom"
 
-const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/logo-spike.png?alt=media&token=aafe4755-7c1a-492f-b86d-c7711c0aa868"
+const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/4_20210430_211813_0003.png?alt=media&token=3807fc69-26df-408c-8a93-d7604bf91d65"
 
 class About extends Component {
 

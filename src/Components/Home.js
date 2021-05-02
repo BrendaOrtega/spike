@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin,faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
 
-const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Transparency%20Spike%20STINGER.png?alt=media&token=4a04421f-8d0d-4147-94de-398cdb78a0f1"
+const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/19_20210430_211814_0018.png?alt=media&token=fb4452df-ffcb-492b-b312-79c6508e164f"
 
 const video = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike-intro.mp4?alt=media&token=e638820e-7e3f-4fa9-8794-9fdd1704cde8"
 
@@ -31,15 +31,15 @@ class Home extends Component {
                 <section className="video-box">
                     <div className="cover">
                         <div className="nav-media">
-                            <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
+                            <a href="tel:+31403033781" aria-label="Mail" rel="noopener noreferrer">
                                 <div>
                                     <span> <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faPhone} />  </span> <span className="none">+31 40 303 3781 </span>
                                 </div>
                             </a>
-                            <a href="mailto:contact@spikestinger.com" aria-label="Mail" rel="noopener noreferrer">
+                            <a href="mailto:contact@spikestingerinternational.com" aria-label="Mail" rel="noopener noreferrer">
                         
                             <div>
-                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span> <span className="none">contact@spikestinger.com</span>
+                            <span > <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faEnvelope} />  </span> <span className="none">contact@spikestingerinternational.com</span>
                             </div>
                             </a>
                         </div>
@@ -61,6 +61,7 @@ class Home extends Component {
                         </video>
                     </div>
                 </section>
+              
                 <section className="benefits">
                     <div className="box-info">
                         <h2>The advantages of the Spike STINGER</h2>

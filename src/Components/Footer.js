@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin,faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
 
-const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Transparency%20Spike%20STINGER.png?alt=media&token=4a04421f-8d0d-4147-94de-398cdb78a0f1"
+const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/13_20210430_211814_0012.png?alt=media&token=fc2e65e2-c44e-4067-a975-fac3ad579951"
 
 
 
@@ -23,7 +23,7 @@ class Footer extends Component {
                         <h3>Contact</h3>
                         <br/>
                  
-                        <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
+                        <a href="tel:+31403033781" aria-label="Mail" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon style={{ marginRight:"12px"}} icon={faPhone} />  </span> +31 40 303 3781 
                         </a>
 
