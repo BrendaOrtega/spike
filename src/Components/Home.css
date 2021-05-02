@@ -286,7 +286,17 @@
     color: white;
     font-size: 36px;
 }
+.modal-info{
+    text-align: center;
+}
 
+.modal-img{
+    width: 180px;
+}
+
+.modal-info strong{
+    color: #88001B;
+}
 @media(max-width: 1200px) {
     .footer-box div {
         flex-wrap: nowrap !important;

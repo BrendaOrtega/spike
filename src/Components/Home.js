@@ -6,12 +6,21 @@ import vector from "../assets/Vector_1.png"
 import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faMapMarked, faPlayCircle} from '@fortawesome/free-solid-svg-icons'
+import { Modal, Button } from 'antd'
 
+
+
+    
 const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/19_20210430_211814_0018.png?alt=media&token=fb4452df-ffcb-492b-b312-79c6508e164f"
 
 const video = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike-intro.mp4?alt=media&token=e638820e-7e3f-4fa9-8794-9fdd1704cde8"
 
+const img = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/4_20210430_211813_0003.png?alt=media&token=3807fc69-26df-408c-8a93-d7604bf91d65"
+
 class Home extends Component {
+
+    state = { isPlaying:false, visible:true }
+    
     componentDidMount() {
         window.scroll(0, 0);
       }
@@ -28,6 +37,15 @@ class Home extends Component {
                 <meta name="Description" content=""/>
                 <title>Spike Stinger</title>
                 <section className="video-box">
+                    <Modal onCancel={()=>{
+                        this.video.play()
+                        this.setState({isPlaying:true, visible:false})
+                    }} footer={null} title="Welcome to Spike Stinger!" visible={this.state.visible} >
+                        <div className="modal-info">
+                            <img className="modal-img" src={img}/>
+                            <p>Do you want to know all the advantages of using spike stinger? <strong>Call us</strong> </p>
+                        </div>
+                    </Modal>
                     <div className="cover">
                         <div className="nav-media">
                             <a href="tel:+31403033781" aria-label="Mail" rel="noopener noreferrer">
@@ -56,7 +74,7 @@ class Home extends Component {
                             </div>
                         </div>
                 
-                        <video autoPlay loop id="myVideo" title="products">
+                        <video ref={v=>this.video=v} loop id="myVideo" title="products">
                             <source src={video} type="video/mp4"/>
                         </video>
                     </div>
