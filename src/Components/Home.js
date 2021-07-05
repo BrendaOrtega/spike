@@ -154,7 +154,7 @@ class Home extends Component {
 
                 </section>
                 <section className="gallery">
-                 <h2>Spike Stinger in action</h2>
+                 <h2>See Spike Stinger in action</h2>
                  <br/>
                    <div className="photos">
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/2Stingers.png?alt=media&token=9579684d-5806-4aa0-bf10-952cc4bcbd97"/>
