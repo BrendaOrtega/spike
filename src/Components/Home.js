@@ -85,7 +85,7 @@ class Home extends Component {
                         <h2>The advantages of the Spike STINGER</h2>
                         <p>What has positioned Spike STINGER as the #1 vehicle stopping system</p>
                         <Link to="/about-us">
-                            <p><srtong className="link">Read more about Spike Stinger</srtong></p> 
+                            <p><srtong className="link">What is Spike Stinger</srtong></p> 
                         </Link>
                     </div>
                     <div className="box-benefits">
@@ -99,7 +99,6 @@ class Home extends Component {
                             <br/>
                             <br/>
                             <br/>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/2Stingers.png?alt=media&token=9579684d-5806-4aa0-bf10-952cc4bcbd97"/>
 
                        </div>
                        <div className="card-ad">
@@ -110,7 +109,6 @@ class Home extends Component {
                             <h3>COST EFFICIENCY</h3>
                             <p>Traditional vehicle stop systems and tools become useless and must be replaced for new ones, once a vehicle has driven over it. The materials are easily bent, some of its components are broken, and some others have even caught fire. In the quest for the sturdiest and most efficient materials, the Spike STINGER lab managed to eradicate these characteristics through a long series of testing.</p>
                             <br/>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor.png?alt=media&token=a783cad6-8715-449d-a93b-50189d4e07cf"/>
 
                        </div>
                        <div className="card-ad">
@@ -121,26 +119,58 @@ class Home extends Component {
                             <h3>Spike-OP Program</h3>
                             <p>One of the main advantages of the Spike STINGER is not only safety for those directly operating the device. The overall dynamics to approach tactical operations could change. Safer and more effective operations could take place in different scenarios. These are ranging from border security, checkup points, anti-terrorism operations, facility safekeeping, among others.</p>
                             <br/>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Underground_city.png?alt=media&token=7552ae2c-25c8-4fd7-8e56-1562f27bab20"/>
 
                        </div>
                     </div>
                    
                 </section>
-                 <section className="gallery">
-                 <h2>Know Spike Stinger</h2>
+                <section className="blog">
+                    <h2>Read more about Spike Stinger</h2>
+                    <br/>
+                    <div className="box-post">
+                        <a href="https://www.linkedin.com/pulse/motorcycle-run-flat-stopped-spike-stinger-technicsproduction/?trackingId=J6ZB8oS6nc1nbqTWPW4wbA%3D%3D" target="blank">
+                            <div className="card-post">
+                                <h3>Motorcycle and Run-Flat stopped by Spike Stinger</h3>
+                                <p>The Spike Stinger can perform over and over again at a super speed, thanks to its new mat and spikes. </p>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Spikes.png?alt=media&token=07c32125-a949-4849-9701-1edadb7e2858"/>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6810136843213004800/" target="blank">
+                            <div className="card-post">
+                                <h3>Working outdoors and enjoying the sunny days</h3>
+                                <p>Would you like to have not only the financial means but the expertise and network necessary to grow your ideas into an actual business?</p>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor2.png?alt=media&token=2b7140a3-13bb-4e02-82df-b434d7c400bd"/>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6762409358551846912/" target="blank">
+                            <div className="card-post">
+                                <h3>Do you smell what T&P is cooking? </h3>
+                                <p>Do you smell what T&P is cooking? Working on one of the 100 most revolutionary ideas we received at the T&P Campus. </p>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor.png?alt=media&token=a783cad6-8715-449d-a93b-50189d4e07cf"/>
+                            </div>
+                        </a>
+                   
+                    </div>
+
+                </section>
+                <section className="gallery">
+                 <h2>Spike Stinger in action</h2>
+                 <br/>
                    <div className="photos">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/2Stingers.png?alt=media&token=9579684d-5806-4aa0-bf10-952cc4bcbd97"/>
+
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Achtervolging.png?alt=media&token=d3b22bb9-fcfa-4d01-a83b-3c995eb31149"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/FlatTires.png?alt=media&token=a6bc1a26-5461-4239-a101-b9a20561901c"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/FlatTires1.png?alt=media&token=170ecfe0-2167-4dd2-93dd-a9bb1cf2f159"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Knop.png?alt=media&token=65778ee9-3e26-40c8-b9ae-6e43af17de38"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor1.png?alt=media&token=6f14382d-379d-4fc1-abd5-51cc9f344052"/>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor2.png?alt=media&token=2b7140a3-13bb-4e02-82df-b434d7c400bd"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Sjors.png?alt=media&token=bca519c6-b865-42bf-a3a9-52963c3c5a8f"/>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Spikes.png?alt=media&token=07c32125-a949-4849-9701-1edadb7e2858"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Underground_city.png?alt=media&token=7552ae2c-25c8-4fd7-8e56-1562f27bab20"/>
 
                    </div>
                 </section>
+               
+              
  
                 {/* <section className="nom">
                     <img className="logo_img" src={logo} alt="logo"/>

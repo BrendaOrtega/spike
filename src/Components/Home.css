@@ -70,7 +70,7 @@
     padding: 5% 10%;
     font-size: 16px;
 }
-.benefits h2, .nom h2, .gallery h2{
+.benefits h2, .nom h2, .gallery h2, .blog h2{
     font-size: 32px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
@@ -120,6 +120,39 @@
 }
 .circle img{
     width: 40px;
+}
+a{
+    color: #666666 !important;
+
+}
+.blog{
+    width:100%;
+    height: auto;
+    padding: 5% 10%;
+    background-color: white;
+    text-align: center;
+    padding: 80px 10%;
+    border-top: 1px solid #cccccc;
+}
+.box-post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-post{
+    background-color: white;
+    width: 400px;
+    padding: 4%;
+    border: 1px solid #f0f0f0;
+    transition: all 1s ease;
+    margin: 24px 0;
+}
+
+.card-post:hover{
+    box-shadow: 0 5px 8px 1px hsl(0deg 0% 84% / 50%);
+}
+.card-post img{
+    width: 100%;
 }
 .gallery{
     width:100%;
@@ -256,7 +289,7 @@
 .footer a{
     margin: 240px 0px !important;
     color: #f2f2f2;
-    opacity: .7;
+    opacity: .9;
 }
 
 .footer img{
