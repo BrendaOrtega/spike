@@ -15,6 +15,15 @@ class About extends Component {
     render() {
         return (
             <section className="about">
+                 <meta
+                    name="description"
+                    content="Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters "
+                />
+                <meta
+                    name="keywords"
+                    content="spike stinger, spike stinger international"
+                />
+                <title>Sobre Spike Stinger</title>
                 <div className="card-story">
                     <Link to="/">   
                         <img className="bg-logo" src={logo} alt="logo"/>

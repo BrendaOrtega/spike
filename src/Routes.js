@@ -1,11 +1,12 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import About from './Components/About';
 import Home from "./Components/Home";
 
 export const Router = () => (
     <Switch>
         <Route exact path="/" component={Home} />
+        <Redirect path="/index" to  path="/" />
         <Route path="/about-us" component={About}/>
     </Switch>
     )

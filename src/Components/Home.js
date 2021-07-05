@@ -35,7 +35,7 @@ class Home extends Component {
                 <meta property="og:title"              content="Spike Stinger" />
                 <meta property="og:description"        content="Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters (16.4 ft) in less than a second" />
                 <meta property="og:image"              content="" />
-                <meta name="Description" content=""/>
+                <meta name="Description" content="Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters"/>
                 <title>Spike Stinger</title>
                 <section className="video-box">
                     <Modal onCancel={()=>{
@@ -96,6 +96,10 @@ class Home extends Component {
                            <br/>
                             <h3>SAFETY</h3>
                             <p>Traditional spike stringers have been the cause of injury and even death for several law-enforcement officers. Because these spike strips are manually operated, the users are directly exposed to the vehicles driving at dangerous speeds, as well as the obvious spike stringer recoiling.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/2Stingers.png?alt=media&token=9579684d-5806-4aa0-bf10-952cc4bcbd97"/>
 
                        </div>
                        <div className="card-ad">
@@ -105,6 +109,8 @@ class Home extends Component {
                            <br/>
                             <h3>COST EFFICIENCY</h3>
                             <p>Traditional vehicle stop systems and tools become useless and must be replaced for new ones, once a vehicle has driven over it. The materials are easily bent, some of its components are broken, and some others have even caught fire. In the quest for the sturdiest and most efficient materials, the Spike STINGER lab managed to eradicate these characteristics through a long series of testing.</p>
+                            <br/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor.png?alt=media&token=a783cad6-8715-449d-a93b-50189d4e07cf"/>
 
                        </div>
                        <div className="card-ad">
@@ -114,6 +120,8 @@ class Home extends Component {
                            <br/>
                             <h3>Spike-OP Program</h3>
                             <p>One of the main advantages of the Spike STINGER is not only safety for those directly operating the device. The overall dynamics to approach tactical operations could change. Safer and more effective operations could take place in different scenarios. These are ranging from border security, checkup points, anti-terrorism operations, facility safekeeping, among others.</p>
+                            <br/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Underground_city.png?alt=media&token=7552ae2c-25c8-4fd7-8e56-1562f27bab20"/>
 
                        </div>
                     </div>
@@ -122,18 +130,14 @@ class Home extends Component {
                  <section className="gallery">
                  <h2>Know Spike Stinger</h2>
                    <div className="photos">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/2Stingers.png?alt=media&token=9579684d-5806-4aa0-bf10-952cc4bcbd97"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Achtervolging.png?alt=media&token=d3b22bb9-fcfa-4d01-a83b-3c995eb31149"/>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Bus.png?alt=media&token=5f4e8680-eafc-49db-b2ea-4ab621c89550"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/FlatTires.png?alt=media&token=a6bc1a26-5461-4239-a101-b9a20561901c"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/FlatTires1.png?alt=media&token=170ecfe0-2167-4dd2-93dd-a9bb1cf2f159"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Knop.png?alt=media&token=65778ee9-3e26-40c8-b9ae-6e43af17de38"/>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor.png?alt=media&token=a783cad6-8715-449d-a93b-50189d4e07cf"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor1.png?alt=media&token=6f14382d-379d-4fc1-abd5-51cc9f344052"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Motor2.png?alt=media&token=2b7140a3-13bb-4e02-82df-b434d7c400bd"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Sjors.png?alt=media&token=bca519c6-b865-42bf-a3a9-52963c3c5a8f"/>
                         <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Spikes.png?alt=media&token=07c32125-a949-4849-9701-1edadb7e2858"/>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Underground_city.png?alt=media&token=7552ae2c-25c8-4fd7-8e56-1562f27bab20"/>
 
                    </div>
                 </section>
