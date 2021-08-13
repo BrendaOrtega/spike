@@ -4,8 +4,6 @@ import safe from "../assets/user-shield-solid.png"
 import award from "../assets/award.png"
 import vector from "../assets/Vector_1.png"
 import { Link } from "react-router-dom"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { Modal } from 'antd'
 import { Carousel } from 'antd';
 
@@ -14,18 +12,9 @@ function onChange(a, b, c, d) {
 }
 
 
-const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/22.png?alt=media&token=f4ae8122-f653-48b7-bc01-f42a16cd63d0"
-
-const video = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike-intro.mp4?alt=media&token=e638820e-7e3f-4fa9-8794-9fdd1704cde8"
-
 const img = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/8.png?alt=media&token=c44334b6-a85f-40c3-a229-7c2316f636a6"
 
-const contentStyle = {
-    height: '100vh',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-};
+
 
 class Home extends Component {
 
@@ -53,7 +42,7 @@ class Home extends Component {
                         this.setState({ isPlaying: true, visible: false })
                     }} footer={null} title="Welcome to Spike Stinger!" visible={this.state.visible} >
                         <div className="modal-info">
-                            <img className="modal-img" src={img} />
+                            <img className="modal-img" src={img} alt="spike logo" />
                             <p>If you are a member of our partner organizations, law enforcement agent or member of a military organization, you can request an invitation to our yearly Spike Stinger Academy. If you want to know more, please
                                 <Link to="/spike-stinger-academy"> <strong>Click here</strong>
                                 </Link></p>

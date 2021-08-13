@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import sendEmail from '../services/email'
 import { message } from 'antd'
-import Nav from "./Nav.js";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone, faMapMarked } from '@fortawesome/free-solid-svg-icons'
 
 const initialState = {
     name: '',

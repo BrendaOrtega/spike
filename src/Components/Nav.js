@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faEllipsisV, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faEllipsisV, faTimes } from '@fortawesome/free-solid-svg-icons'
 import "./Nav.css";
 
 const spike = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/1.png?alt=media&token=6030a378-65a0-451d-b0a6-e7182ea8d867"
@@ -38,10 +38,9 @@ class Nav extends Component {
                 <div className="mobile-nav">
                     <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faEllipsisV} />
                     <div className="menu-drop">
-                        <p>
+                        <span>
                             <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faTimes} />
-
-                        </p>
+                        </span>
                         <br />
                         <Link to="/about-us">
                             <h3>About us</h3>
