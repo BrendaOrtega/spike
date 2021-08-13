@@ -5,9 +5,6 @@ import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-ico
 
 const logo ="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/13_20210430_211814_0012.png?alt=media&token=fc2e65e2-c44e-4067-a975-fac3ad579951"
 
-
-
-
 class Footer extends Component {
 
     render() {

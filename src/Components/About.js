@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './Home.css';
+import Nav from "./Nav"
 import { Timeline } from 'antd';
 import {Link} from "react-router-dom"
 
-const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/4_20210430_211813_0003.png?alt=media&token=3807fc69-26df-408c-8a93-d7604bf91d65"
+const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/8.png?alt=media&token=c44334b6-a85f-40c3-a229-7c2316f636a6"
 
 class About extends Component {
 
@@ -24,14 +25,31 @@ class About extends Component {
                     content="spike stinger, spike stinger international"
                 />
                 <title>Sobre Spike Stinger</title>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div className="card-story">
-                    <Link to="/">   
+                    {/* <Link to="/">   
                         <img className="bg-logo" src={logo} alt="logo"/>
-                    </Link>
+                    </Link> */}
+                    <h2 className="subtitle">About Spike Stinger</h2>
+                    <iframe src="https://www.youtube.com/embed/uynJBZKM744" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br/>
                     <br/>
                     <div className="story">
                         <p>
+                        At Spike STINGER International, we aim to secure the life of every law-enforcement official around the world, by finishing a vehicle pursuit in the safest possible way… even for those being chased. To achieve this, our team is carrying on constant research and development to improve every individual aspect regarding our technologies. We have set the bar high, and we are setting it higher by the day.</p>
+<p>
+After thorough research and extensive testing, the Spike STINGER was born at the <a style={{textDecoration:"underline"}} href="https://technicsproduction.nl/technics-production" target="_blank">TP Campus</a>. It immediately began providing equipment to domestic and foreign organizations. It partnered up with distributors around the world, and was called to register as an official military provider for several countries. </p>
+<p>
+The development of its devices took almost 7 years and a constant finetuning in close cooperation with the end users. This has allowed us to communicate effectively with those who are actually in the line of duty. Their feedback and suggestions are always considered and have helped us to make better products.</p>
+<p>
+If you want to see our devices or simply get to know us, feel free to schedule a meeting or video conference <strong>here</strong>.
+
+                        </p>
+                        {/* <p>
                         The <strong>Spike STINGER </strong> was born and developed at <strong>Technics Production B.V.</strong>, in response to several accidents related to the deployment or retraction of Tire Deflation Devices taking place all around the world. We are the only company worldwide able to make/manufacture and distribute this safe and convenient remotely operated device.
                         </p>
                         <p>
@@ -61,7 +79,7 @@ class About extends Component {
                         <p>
                         Custom-made alloys, in-house developed software and mechanics allow the Spike STINGER to endure the toughest conditions, over and over again (no need of expensive and disposable spare parts or even entire units). Law-enforcement officers no longer feel unsafe, and entire organizations get the recognition they deserve thanks to this great tool. The Spike STINGER users are not only able to save a considerable amount of financial resources in a medium and long term budget, but to save the lives of those protecting us, so that they can make it home safe at the end of the day.
 
-                        </p>
+                        </p> */}
                         <br/>
                         <div style={{display:"flex", justifyContent:"center"}}>
                             <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
@@ -70,9 +88,7 @@ class About extends Component {
                         </div>
                     </div>
                     <br/>
-                    <Link to="/">
-                            <p className="link"> Back to home</p>
-                        </Link>
+
                 </div>
             </section>
         );
