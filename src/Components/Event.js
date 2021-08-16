@@ -57,11 +57,11 @@ class Event extends Component {
                         If you <strong>wish to receive an invitation for the 2022 academy</strong>, please fill in the following form. We will send you an email with the invitation for the event, and/or the necessary materials for you to take it online if the restrictions to fight COVID19 remain unchanged.
                     </p>
                     <form onSubmit={this.sendEmailWithService} className="invite-form">
-                        <input value={this.state.name} onChange={this.onChange} placeholder="Name" name="name" />
-                        <input value={this.state.org} onChange={this.onChange} placeholder="Organization name" name="org" />
-                        <input value={this.state.website} onChange={this.onChange} placeholder="Website" name="website" />
-                        <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" />
-                        <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" />
+                        <input value={this.state.name} onChange={this.onChange} placeholder="Name" name="name" required />
+                        <input value={this.state.org} onChange={this.onChange} placeholder="Organization name" name="org" required />
+                        <input value={this.state.website} onChange={this.onChange} placeholder="Website" name="website" required />
+                        <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" required />
+                        <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" required />
                         <br />
                         <br />
 

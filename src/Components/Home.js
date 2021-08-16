@@ -4,26 +4,13 @@ import safe from "../assets/user-shield-solid.png"
 import award from "../assets/award.png"
 import vector from "../assets/Vector_1.png"
 import { Link } from "react-router-dom"
-import { Modal } from 'antd'
 import { Carousel } from 'antd';
 
 function onChange(a, b, c, d) {
     console.log(a, b, c, d);
 }
 
-
-const img = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/8.png?alt=media&token=c44334b6-a85f-40c3-a229-7c2316f636a6"
-
-
-
 class Home extends Component {
-
-    state = { isPlaying: false, visible: true }
-
-    componentDidMount() {
-        window.scroll(0, 0);
-    }
-
 
     render() {
 
@@ -37,17 +24,7 @@ class Home extends Component {
                 <meta name="Description" content="Spike STINGER deploys by shooting a foldable highly resistant spike strip across 5 meters" />
                 <title>Spike Stinger</title>
                 <section className="video-box">
-                    <Modal onCancel={() => {
-                        // this.video.play()
-                        this.setState({ isPlaying: true, visible: false })
-                    }} footer={null} title="Welcome to Spike Stinger!" visible={this.state.visible} >
-                        <div className="modal-info">
-                            <img className="modal-img" src={img} alt="spike logo" />
-                            <p>If you are a member of our partner organizations, law enforcement agent or member of a military organization, you can request an invitation to our yearly Spike Stinger Academy. If you want to know more, please
-                                <Link to="/spike-stinger-academy"> <strong>Click here</strong>
-                                </Link></p>
-                        </div>
-                    </Modal>
+
                     <div className="cover">
 
                         <div className="box-carrusel">
@@ -98,10 +75,15 @@ class Home extends Component {
 
                     </div>
                 </section>
+                <section className="home-iframe">
+                    <h2 className="subtitle">The #1 Vehicle Stopping System around the world</h2>
+                    <p>The Spike STINGER is the only autonomous device able to stop any vehicle from motorcycles to trailer trucks in seconds. Its unique capacities for pairing and non-stop operation have also granted it the preference of military organizations. It can be used fixed or during mobile operations. The Spike STINGER is effectively stopping vehicles all across the globe. You can find these in every continent, excluding Antarctica.</p>
+                    <iframe className="home-video" src="https://www.youtube.com/embed/VvFkUjLvIRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </section>
                 <section className="benefits">
                     <div className="box-info">
-                        <h2>The #1 Vehicle Stopping System around the world</h2>
-                        <p>The Spike STINGER is the only autonomous device able to stop any vehicle from motorcycles to trailer trucks in seconds. Its unique capacities for pairing and non-stop operation have also granted it the preference of military organizations. It can be used fixed or during mobile operations. The Spike STINGER is effectively stopping vehicles all across the globe. You can find these in every continent, excluding Antarctica.</p>
+                        <h2>The Vehicle Stopping System around the world</h2>
                         <Link to="/about-us">
                             <p><srtong className="link">What is Spike Stinger</srtong></p>
                         </Link>
@@ -141,11 +123,13 @@ class Home extends Component {
                             <br />
 
                         </div>
+
+
                     </div>
 
                 </section>
 
-            </section>
+            </section >
         );
     }
 }

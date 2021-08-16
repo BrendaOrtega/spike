@@ -60,13 +60,15 @@
 }
 
 .menu-drop{
-    width: 80%;
+    width: 240px;
     height: 100vh;
     background-color: black;
     color:white;
     position: absolute;
-    top: 0;right: 0;
+    top: 0;
+    right: -240px;
     padding: 40px 0 24px 24px;
+    transition: all .3s ease;
 }
 .menu-drop h3{
     color: white !important;
@@ -84,7 +86,9 @@
         display: flex;
         font-size: 24px;
     }
-  
+    .menuDropActive{
+        right:0;
+    }
     .nav-media{
         display: none;
     }
@@ -92,4 +96,8 @@
         line-height: 80px;
     }
 
+}
+
+.mobile-nav h3:active {
+    opacity: .6;
 }

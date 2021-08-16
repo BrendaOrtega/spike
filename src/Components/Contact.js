@@ -56,10 +56,10 @@ class Contact extends Component {
                         <h2>Contact us</h2>
                         <p>We will get in touch with you as soon as possible.</p>
                         <form onSubmit={this.sendEmailWithService} className="invite-form">
-                            <input value={this.state.name} onChange={this.onChange} placeholder="Name" name="name" />
-                            <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" />
-                            <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" />
-                            <textarea value={this.state.message} onChange={this.onChange} className="txtarea" type="text" placeholder="Message" name="message" />
+                            <input value={this.state.name} onChange={this.onChange} placeholder="Name" name="name" required />
+                            <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" required />
+                            <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" required />
+                            <textarea value={this.state.message} onChange={this.onChange} className="txtarea" type="text" placeholder="Message" name="message" required />
 
 
                             <button className="btn_yellow">Submit</button>

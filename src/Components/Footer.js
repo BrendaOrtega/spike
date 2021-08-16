@@ -34,7 +34,7 @@ class Footer extends Component {
                         <br />
                         <a href="https://goo.gl/maps/Br5a2k8B1uYvoMSN8" target="_blank" aria-label="Mail" rel="noopener noreferrer">
 
-                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faMapMarked} /> </span> Spike STINGER, Tongelre, <br />
+                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faMapMarked} /> </span> TP Campus, Urkhovenseweg 17, <br />
                             <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span>5641 KA Eindhoven<br />
                             <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span> The Netherlands
 

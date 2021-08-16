@@ -8,6 +8,11 @@ const spike = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.c
 
 class Nav extends Component {
 
+    state = {
+        showMenu: false
+    }
+
+    hideMenu = () => this.setState({ showMenu: false })
 
     render() {
         return (
@@ -16,6 +21,9 @@ class Nav extends Component {
                     <img src={spike} alt="logo-spike" />
                 </Link>
                 <div className="nav-media">
+                    <Link to="/">
+                        <h3>Home</h3>
+                    </Link>
                     <Link to="/about-us">
                         <h3>About us</h3>
                     </Link>
@@ -36,28 +44,35 @@ class Nav extends Component {
                     </Link>
                 </div>
                 <div className="mobile-nav">
-                    <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faEllipsisV} />
-                    <div className="menu-drop">
+                    <FontAwesomeIcon
+                        onClick={() => this.setState({ showMenu: true })}
+                        style={{ marginRight: "12px" }} icon={faEllipsisV} />
+                    <div className={this.state.showMenu ? 'menu-drop menuDropActive' : 'menu-drop'}>
                         <span>
-                            <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faTimes} />
+                            <FontAwesomeIcon
+                                onClick={() => this.setState({ showMenu: false })}
+                                style={{ marginRight: "12px" }} icon={faTimes} />
                         </span>
                         <br />
-                        <Link to="/about-us">
+                        <Link onClick={this.hideMenu} to="/">
+                            <h3>Home</h3>
+                        </Link>
+                        <Link onClick={this.hideMenu} to="/about-us">
                             <h3>About us</h3>
                         </Link>
-                        <Link to="/specs">
+                        <Link onClick={this.hideMenu} to="/specs">
                             <h3>Specs</h3>
                         </Link>
-                        <Link to="/setup">
+                        <Link onClick={this.hideMenu} to="/setup">
                             <h3>Fixed Setup</h3>
                         </Link>
-                        <Link to="/news">
+                        <Link onClick={this.hideMenu} to="/news">
                             <h3>News</h3>
                         </Link>
-                        <Link to="/spike-stinger-academy">
+                        <Link onClick={this.hideMenu} to="/spike-stinger-academy">
                             <h3>Events</h3>
                         </Link>
-                        <Link to="/contact">
+                        <Link onClick={this.hideMenu} to="/contact">
                             <h3>Contact</h3>
                         </Link>
                     </div>

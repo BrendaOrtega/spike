@@ -14,50 +14,10 @@ class Specs extends Component {
     render() {
         return (
             <section className="specs">
-                <h2 className="subtitle">Specs</h2>
-                <p>
-                    Custom-made alloys, in-house developed software and mechanics allow the Spike STINGER to endure the toughest conditions, over and over again. Organizations are no longer forced to buy spare parts, or even purchase complete replacements continuously. The Spike STINGER users are able to save a considerable amount of financial resources in a medium and long term budget.
-                </p>
-                <p>
-                    The Spike STINGER can be activated and monitored through its Remote Control, from a safe distance of 100 meters (328.08 ft). Notifications about the status and operational capacities of the Spike Stringer are shown in the remote’s display.
-                </p>
-                <p>
-                    The Spike STINGER uses GPS SMART-RECorder™ technology. This allows the registration of the time and location of every deployment. The encrypted data can be retrieved solely by the owner or staff in charge of every unit.
-                </p>
-                <div className="products-box">
-                    <div className="product-card">
-                        <h3>Rust-Free, Harden Metal Body</h3>
-                        <ul>
-                            <li>Length: 835 mm (32.87 in)</li>
-                            <li>Width: 460 mm (18.11 in)</li>
-                            <li>Height: 115 mm (4.52 in)</li>
-                            <li>Weight: 23 kg (50.07 lbs)</li>
-                        </ul>
-                    </div>
-                    <div className="product-card">
-                        <h3>Reinforced Spike Strip/Mat</h3>
-                        <br />
-                        <ul>
-                            <li>Reach: 5.5 m (18.04 ft)</li>
-                            <li>Spike Height: 5 cm (1.97 in)</li>
-                            <li>120 spikes (10 spikes per line)</li>
-                        </ul>
-                    </div>
-                    <div className="product-card">
-                        <h3>Remote Control</h3>
-                        <br />
-                        <ul>
-                            <li>Reach: up to 100 m (328.08 ft)</li>
-                            <li>Water/Dust resistant class: IP53</li>
-                            <li>Com speed: 57600 bps</li>
-                        </ul>
-                    </div>
-                </div>
                 <div>
-                    <h2 className="subtitle2">The exclusive capacities of the Spike STINGER are:</h2>
+                    <h2 className="subtitle">The exclusive capacities of the Spike STINGER</h2>
                     <div className="specs-box">
                         <div className="specs-img">
-
                         </div>
                         <div>
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Automatic Self Calibration</p>
@@ -78,8 +38,57 @@ class Specs extends Component {
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Lowest cost per car deflated (stop spending unnecessary amounts of money on disposable devices/components)</p>
                         </div>
                     </div>
+
+                </div>
+                <br />
+                <br />
+                <br />
+                <hr className="line" />
+                <div>
+                    <h2 className="subtitle">Specs</h2>
+
+                    <p>
+                        Custom-made alloys, in-house developed software and mechanics allow the Spike STINGER to endure the toughest conditions, over and over again. Organizations are no longer forced to buy spare parts, or even purchase complete replacements continuously. The Spike STINGER users are able to save a considerable amount of financial resources in a medium and long term budget.
+                    </p>
+                    <p>
+                        The Spike STINGER can be activated and monitored through its Remote Control, from a safe distance of 100 meters (328.08 ft). Notifications about the status and operational capacities of the Spike Stringer are shown in the remote’s display.
+                    </p>
+                    <p>
+                        The Spike STINGER uses GPS SMART-RECorder™ technology. This allows the registration of the time and location of every deployment. The encrypted data can be retrieved solely by the owner or staff in charge of every unit.
+                    </p>
+                    <div className="products-box">
+                        <div className="product-card">
+                            <h3>Rust-Free, Harden Metal Body</h3>
+                            <ul>
+                                <li>Length: 835 mm (32.87 in)</li>
+                                <li>Width: 460 mm (18.11 in)</li>
+                                <li>Height: 115 mm (4.52 in)</li>
+                                <li>Weight: 23 kg (50.07 lbs)</li>
+                            </ul>
+                        </div>
+                        <div className="product-card">
+                            <h3>Reinforced Spike Strip/Mat</h3>
+                            <br />
+                            <ul>
+                                <li>Reach: 5.5 m (18.04 ft)</li>
+                                <li>Spike Height: 5 cm (1.97 in)</li>
+                                <li>120 spikes (10 spikes per line)</li>
+                            </ul>
+                        </div>
+                        <div className="product-card">
+                            <h3>Remote Control</h3>
+                            <br />
+                            <ul>
+                                <li>Reach: up to 100 m (328.08 ft)</li>
+                                <li>Water/Dust resistant class: IP53</li>
+                                <li>Com speed: 57600 bps</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className="cta">
-                        <button className="btn_yellow">Download our flat sheet </button>
+                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/0-5622575324_20210809_160112_0000.pdf?alt=media&token=183ee0b6-68f3-47f7-ae6e-f432a1d6d7ec" target="_blank" rel="noopener noreferrer">
+                            <button className="btn_yellow">Download our flat sheet </button>
+                        </a>
                         <br />
                         <br />
                         <p>If you would like to request a quotation, demo, or further information about the Spike STINGER in general, do not hesitate to contact us <Link to="/contact"> <strong>here</strong></Link>. Our personnel will be glad to assist you.</p>
