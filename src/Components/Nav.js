@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisV, faTimes } from '@fortawesome/free-solid-svg-icons'
 import "./Nav.css";
 
-const spike = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/1.png?alt=media&token=6030a378-65a0-451d-b0a6-e7182ea8d867"
+const spike = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/17.png?alt=media&token=ec59f16b-9d79-421e-8d0c-6f05a5d88e6a"
 
 class Nav extends Component {
 

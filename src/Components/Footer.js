@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faMapMarked } from '@fortawesome/free-solid-svg-icons'
 
-const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/13_20210430_211814_0012.png?alt=media&token=fc2e65e2-c44e-4067-a975-fac3ad579951"
+const logo = "https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/17.png?alt=media&token=ec59f16b-9d79-421e-8d0c-6f05a5d88e6a"
 
 class Footer extends Component {
 
