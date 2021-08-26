@@ -20,13 +20,13 @@ class Footer extends Component {
                         <h3>Contact</h3>
                         <br />
 
-                        <a href="tel:+31403033781" aria-label="Mail" rel="noopener noreferrer">
+                        <a href="tel:+12515109362" aria-label="Mail" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faPhone} />  </span> +1 251 510 9362
                         </a>
 
                         <br />
                         <br />
-                        <a href="mailto:contact@spikestingerinternational.com" aria-label="Mail" rel="noopener noreferrer">
+                        <a href="mailto:jhon@spikestingerinternational.com" aria-label="Mail" rel="noopener noreferrer">
                             <span > <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faEnvelope} />  </span>  jhon@spikestingerinternational.com
 
                         </a>
