@@ -21,22 +21,22 @@ class Footer extends Component {
                         <br />
 
                         <a href="tel:+31403033781" aria-label="Mail" rel="noopener noreferrer">
-                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faPhone} />  </span> +31 40 303 3781
+                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faPhone} />  </span> +1 251 510 9362
                         </a>
 
                         <br />
                         <br />
                         <a href="mailto:contact@spikestingerinternational.com" aria-label="Mail" rel="noopener noreferrer">
-                            <span > <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faEnvelope} />  </span>  contact@spikestingerinternational.com
+                            <span > <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faEnvelope} />  </span>  jhon@spikestingerinternational.com
 
                         </a>
                         <br />
                         <br />
-                        <a href="https://goo.gl/maps/Br5a2k8B1uYvoMSN8" target="_blank" aria-label="Mail" rel="noopener noreferrer">
+                        <a href="https://goo.gl/maps/RkqbTiT8xS14Rb7BA" target="_blank" aria-label="Mail" rel="noopener noreferrer">
 
-                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faMapMarked} /> </span> TP Campus, Urkhovenseweg 17, <br />
-                            <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span>5641 KA Eindhoven<br />
-                            <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span> The Netherlands
+                            <span> <FontAwesomeIcon style={{ marginRight: "12px" }} icon={faMapMarked} /> </span>Spike STINGER<br />
+                            <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span>4431 Government Blvd<br />
+                            <span> <FontAwesomeIcon style={{ opacity: "0", marginRight: "12px" }} icon={faMapMarked} />  </span> Mobile, Alabama
 
                         </a>
 
