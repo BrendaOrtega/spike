@@ -49,10 +49,10 @@ class Contact extends Component {
                     </div>
                 </section>
                 <section id="contact" className="contacto">
-                    <div className="contact_descript">
+                    <div className="contact_map">
                         <iframe title="company map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.518803144669!2d-88.15781988487127!3d30.619333181676815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889a4cbb25c14761%3A0x451cc2a36a6f16ae!2s4431%20Government%20Blvd%2C%20Mobile%2C%20AL%2036693%2C%20USA!5e0!3m2!1sen!2smx!4v1629945183270!5m2!1sen!2smx" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" />
                     </div>
-                    <div>
+                    <div className="contact_descript">
                         <h2>Contact us</h2>
                         <p>We will get in touch with you as soon as possible.</p>
                         <form onSubmit={this.sendEmailWithService} className="invite-form">
@@ -60,8 +60,6 @@ class Contact extends Component {
                             <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" required />
                             <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" required />
                             <textarea value={this.state.message} onChange={this.onChange} className="txtarea" type="text" placeholder="Message" name="message" required />
-
-
                             <button className="btn_yellow">Submit</button>
 
                         </form>
