@@ -22,7 +22,7 @@ class About extends Component {
                 <title>Sobre Spike Stinger</title>
                 <div className="card-story">
                     <h2 className="subtitle">About Spike Stinger</h2>
-                    <iframe src="https://www.youtube.com/embed/uynJBZKM744" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/uynJBZKM744" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
                     <br />
                     <div className="story">
@@ -33,7 +33,7 @@ class About extends Component {
                         <p>
                             The development of its devices took almost 7 years and a constant finetuning in close cooperation with the end users. This has allowed us to communicate effectively with those who are actually in the line of duty. Their feedback and suggestions are always considered and have helped us to make better products.</p>
                         <p>
-                            If you want to see our devices or simply get to know us, feel free to schedule a meeting or video conference <strong>here</strong>.
+                            If you want to see our devices or simply get to know us, feel free to schedule a meeting or video conference <b>here</b>.
                         </p>
                         <br />
                         <div style={{ display: "flex", justifyContent: "center" }}>

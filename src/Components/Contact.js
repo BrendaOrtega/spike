@@ -60,10 +60,7 @@ class Contact extends Component {
                             <input value={this.state.phone} onChange={this.onChange} placeholder="Telephone number" name="phone" required />
                             <input value={this.state.email} onChange={this.onChange} placeholder="Email address" name="email" required />
                             <textarea value={this.state.message} onChange={this.onChange} className="txtarea" type="text" placeholder="Message" name="message" required />
-
-
                             <button className="btn_yellow">Submit</button>
-
                         </form>
 
                     </div>

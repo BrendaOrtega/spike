@@ -7,7 +7,6 @@ import { Link } from "react-router-dom"
 import { Carousel } from 'antd';
 
 function onChange(a, b, c, d) {
-    console.log(a, b, c, d);
 }
 
 class Home extends Component {
@@ -78,7 +77,7 @@ class Home extends Component {
                 <section className="home-iframe">
                     <h2 className="subtitle">The #1 Vehicle Stopping System around the world</h2>
                     <p>The Spike STINGER is the only autonomous device able to stop any vehicle from motorcycles to trailer trucks in seconds. Its unique capacities for pairing and non-stop operation have also granted it the preference of military organizations. It can be used fixed or during mobile operations. The Spike STINGER is effectively stopping vehicles all across the globe. You can find these in every continent, excluding Antarctica.</p>
-                    <iframe className="home-video" src="https://www.youtube.com/embed/VvFkUjLvIRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className="home-video" src="https://www.youtube.com/embed/VvFkUjLvIRs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                 </section>
                 <section className="benefits">

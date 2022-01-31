@@ -26,7 +26,7 @@ class App extends Component {
           <div className="modal-info">
             <img className="modal-img" src={img} alt="spike logo" />
             <p>If you are a member of our partner organizations, law enforcement agent or member of a military organization, you can request an invitation to our yearly Spike Stinger Academy. If you want to know more, please
-              <Link to="/spike-stinger-academy"> <strong>Click here</strong>
+              <Link to="/spike-stinger-academy"> <b>Click here</b>
               </Link></p>
           </div>
         </Modal>

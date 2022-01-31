@@ -495,7 +495,7 @@
     margin-bottom: 24px;
 }
 
-.modal-info strong, .specs strong, .setup strong, .card-story strong{
+.modal-info b, .specs b, .setup b, .card-story b{
     color: #004aad;
     text-decoration: underline;
 }

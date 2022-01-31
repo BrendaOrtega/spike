@@ -86,12 +86,12 @@ class Specs extends Component {
                         </div>
                     </div>
                     <div className="cta">
-                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/0-5622575324_20210809_160112_0000.pdf?alt=media&token=183ee0b6-68f3-47f7-ae6e-f432a1d6d7ec" target="_blank" rel="noopener noreferrer">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/ENG%20Horizontal%20Poster.png?alt=media&token=e436ec74-cb5b-49d5-bf2f-57c376632054" target="_blank" rel="noopener noreferrer">
                             <button className="btn_yellow">Download our flat sheet </button>
                         </a>
                         <br />
                         <br />
-                        <p>If you would like to request a quotation, demo, or further information about the Spike STINGER in general, do not hesitate to contact us <Link to="/contact"> <strong>here</strong></Link>. Our personnel will be glad to assist you.</p>
+                        <p>If you would like to request a quotation, demo, or further information about the Spike STINGER in general, do not hesitate to contact us <Link to="/contact"> <b>here</b></Link>. Our personnel will be glad to assist you.</p>
                     </div>
                 </div>
             </section>
