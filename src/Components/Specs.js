@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
+
 class Specs extends Component {
 
     componentDidMount() {
@@ -15,8 +16,8 @@ class Specs extends Component {
         return (
             <section className="specs">
                 <div>
-                    <h2 className="subtitle">The exclusive capacities of the Spike STINGER</h2>
-                    <div className="specs-box">
+                    <h2 className="subtitle">The exclusive capacities of the Spike STINGER | Specs</h2>
+                    {/* <div className="specs-box">
                         <div className="specs-img">
                         </div>
                         <div>
@@ -37,15 +38,16 @@ class Specs extends Component {
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Best warranty coverage (every component, fully covered for 500 deployments or two full years)</p>
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Lowest cost per car deflated (stop spending unnecessary amounts of money on disposable devices/components)</p>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
-                <br />
-                <br />
-                <br />
+
                 <hr className="line" />
+                <br />
+                {/* <br /> */}
+                {/* <br /> */}
                 <div>
-                    <h2 className="subtitle">Specs</h2>
+                    {/* <h3 className="subtitle">Specs</h3> */}
 
                     <p>
                         Custom-made alloys, in-house developed software and mechanics allow the Spike STINGER to endure the toughest conditions, over and over again. Organizations are no longer forced to buy spare parts, or even purchase complete replacements continuously. The Spike STINGER users are able to save a considerable amount of financial resources in a medium and long term budget.
@@ -56,7 +58,10 @@ class Specs extends Component {
                     <p>
                         The Spike STINGER uses GPS SMART-RECorder™ technology. This allows the registration of the time and location of every deployment. The encrypted data can be retrieved solely by the owner or staff in charge of every unit.
                     </p>
-                    <div className="products-box">
+                    <div className='tabla'>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike.png?alt=media&token=ee531cfd-271d-4914-9e5b-0fc9c5d6b544" alt='comaprative table' />
+                    </div>
+                    {/* <div className="products-box">
                         <div className="product-card">
                             <h3>Rust-Free, Harden Metal Body</h3>
                             <ul>
@@ -84,9 +89,9 @@ class Specs extends Component {
                                 <li>Com speed: 57600 bps</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="cta">
-                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/ENG%20Horizontal%20Poster.png?alt=media&token=e436ec74-cb5b-49d5-bf2f-57c376632054" target="_blank" rel="noopener noreferrer">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Specs%20SSI.pdf?alt=media&token=1622b111-869b-42d6-b476-a458560ceb64" target="_blank" rel="noopener noreferrer">
                             <button className="btn_yellow">Download our flat sheet </button>
                         </a>
                         <br />

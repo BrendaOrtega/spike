@@ -56,7 +56,7 @@ class SetUp extends Component {
                     </li>
                 </ul>
 
-                <p>If you wish to secure a facility with the Spike Stinger, get in touch with us <Link to="/contact"><strong>here</strong></Link> . We will gladly assess your situation and give you the best possible advice on how to make it safe.
+                <p>If you wish to secure a facility with the Spike Stinger, get in touch with us <Link to="/contact"><b>here</b></Link> . We will gladly assess your situation and give you the best possible advice on how to make it safe.
                 </p>
             </section>
         );
