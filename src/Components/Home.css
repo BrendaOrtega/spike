@@ -639,14 +639,11 @@
     margin: 48px;
 }
 
+
+
 .tabla {
     width: 100%;
-    overflow: hidden;
     height: auto;
-}
-
-.tabla img {
-    width: 100%;
     object-fit: cover;
 }
 
@@ -722,6 +719,10 @@
 }
 
 @media(max-width: 525px) {
+    .subtitle {
+        font-size: 32px;
+    }
+
     .info-box {
         width: 100%;
     }

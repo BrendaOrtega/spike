@@ -3,7 +3,8 @@ import './Home.css';
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class Specs extends Component {
 
@@ -16,7 +17,7 @@ class Specs extends Component {
         return (
             <section className="specs">
                 <div>
-                    <h2 className="subtitle">The exclusive capacities of the Spike STINGER | Specs</h2>
+                    <h2 className="subtitle">The exclusive capacities of the Spike STINGER </h2>
                     {/* <div className="specs-box">
                         <div className="specs-img">
                         </div>
@@ -58,9 +59,9 @@ class Specs extends Component {
                     <p>
                         The Spike STINGER uses GPS SMART-RECorder™ technology. This allows the registration of the time and location of every deployment. The encrypted data can be retrieved solely by the owner or staff in charge of every unit.
                     </p>
-                    <div className='tabla'>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike.png?alt=media&token=ee531cfd-271d-4914-9e5b-0fc9c5d6b544" alt='comaprative table' />
-                    </div>
+
+                    <LazyLoadImage className='tabla' effect="blur" src="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/spike.png?alt=media&token=ddea0d99-07ed-4c41-baba-67bda20d2efb" alt='comaprative table' />
+
                     {/* <div className="products-box">
                         <div className="product-card">
                             <h3>Rust-Free, Harden Metal Body</h3>
