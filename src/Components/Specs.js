@@ -18,7 +18,7 @@ class Specs extends Component {
             <section className="specs">
                 <div>
                     <h2 className="subtitle">The exclusive capacities of the Spike STINGER </h2>
-                    {/* <div className="specs-box">
+                    <div className="specs-box">
                         <div className="specs-img">
                         </div>
                         <div>
@@ -39,7 +39,7 @@ class Specs extends Component {
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Best warranty coverage (every component, fully covered for 500 deployments or two full years)</p>
                             <p><FontAwesomeIcon style={{ marginRight: "12px", fontSize: "20px", color: "#BF2F35" }} icon={faCheckCircle} />Lowest cost per car deflated (stop spending unnecessary amounts of money on disposable devices/components)</p>
                         </div>
-                    </div> */}
+                    </div>
 
                 </div>
 
@@ -92,7 +92,7 @@ class Specs extends Component {
                         </div>
                     </div> */}
                     <div className="cta">
-                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Specs%20SSI.pdf?alt=media&token=1622b111-869b-42d6-b476-a458560ceb64" target="_blank" rel="noopener noreferrer">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Specs%20SSI.pdf?alt=media&token=74d10210-22a3-4061-8e27-427d4ea72f7e" target="_blank" rel="noopener noreferrer">
                             <button className="btn_yellow">Download our flat sheet </button>
                         </a>
                         <br />
