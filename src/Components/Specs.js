@@ -92,7 +92,7 @@ class Specs extends Component {
                         </div>
                     </div> */}
                     <div className="cta">
-                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Specs%20SSI.pdf?alt=media&token=74d10210-22a3-4061-8e27-427d4ea72f7e" target="_blank" rel="noopener noreferrer">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/Specs%20SSI%202.pdf?alt=media&token=165eae91-a4a8-4a82-9d33-aea2db45fabb" target="_blank" rel="noopener noreferrer">
                             <button className="btn_yellow">Download our flat sheet </button>
                         </a>
                         <br />
@@ -106,3 +106,4 @@ class Specs extends Component {
 }
 
 export default Specs;
+

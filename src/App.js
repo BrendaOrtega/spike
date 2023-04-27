@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Modal onCancel={() => {
+        {/* <Modal onCancel={() => {
           // this.video.play()
           this.setState({ isPlaying: true, visible: false })
         }} footer={null} title="Welcome to Spike Stinger!" visible={this.state.visible} >
@@ -29,7 +29,7 @@ class App extends Component {
               <Link to="/spike-stinger-academy"> <b>Click here</b>
               </Link></p>
           </div>
-        </Modal>
+        </Modal> */}
         <Nav />
         <Routes />
         <Footer />

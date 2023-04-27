@@ -52,9 +52,7 @@ class Event extends Component {
                         <li>Maximize your human resources, and keep them safe</li>
                         <li>Decision making under stressful situations</li>
                     </ul>
-                    <p>Because of the pandemic, 2020 and 2021 Academy took place online. We have sent some didactic materials to every member who registered, as well as livestreamed our instructors in action. In those two years, with more than 250 registrations online and 28 people attending in person, we have awarded 472 certifications.</p>
-                    <p>
-                        If you <b>wish to receive an invitation for the 2022 academy</b>, please fill in the following form. We will send you an email with the invitation for the event, and/or the necessary materials for you to take it online if the restrictions to fight COVID19 remain unchanged.
+                    <p> If you wish to receive an invitation for our <strong>March 2024 academy</strong>, please fill in the following form. We will send you a detailed email with the invitation for the event, and/or the necessary materials for you to take it online.
                     </p>
                     <form onSubmit={this.sendEmailWithService} className="invite-form">
                         <input value={this.state.name} onChange={this.onChange} placeholder="Name" name="name" required />
