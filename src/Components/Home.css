@@ -42,7 +42,7 @@
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/smallimages%2F2Stingers.png?alt=media&token=6456b3ca-56d6-4224-98e5-300df83e3246");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/spike-ed33d.appspot.com/o/smallimages%2FSpikes.png?alt=media&token=dfa17cfb-5e10-4947-9279-b94da6bb3b3f");
 }
 
 .img5 {
@@ -87,8 +87,8 @@
   font-size: 80px;
   color: white;
   font-family: "SpikeFont";
-  margin-bottom: 0px;
-  line-height: 120px;
+  margin-bottom: 24px;
+  line-height: 60px;
 }
 
 .btn-white {
